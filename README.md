@@ -36,11 +36,11 @@ These lines are your foundation and you should not need to change anything here.
 
 Here you will see ***TODO*** comments in 5 functions these are the functions that you will need to complete the implementation for
 
-- send_mail_from() This function should send and handle a ***MAIL FROM*** command 
-- send_rcpt_to() This function should send and handle a ***RCPT TO*** command
-- send_begin_data() This function should send and handle a ***DATA*** command
-- send_message() This function should send a message body optionally witha ***SUBJECT*** line.
-- send_quit() This function should send and handle a ***QUIT*** command
+- send_mail_from() This function should send and handle the reply from a ***MAIL FROM*** command 
+- send_rcpt_to() This function should send and handle the reply from a ***RCPT TO*** command
+- send_begin_data() This function should send and handle the reply from a ***DATA*** command
+- send_message() This function should send a message body optionally with a ***SUBJECT*** line.
+- send_quit() This function should send and handle the reply from a ***QUIT*** command
 
 You should refer to the earlier send_line() and send_helo() function  to see how commands are formatted and sent.   
 Also refer to the log output at the bottom of this page to see the strings that are send/recived in a completely working client. 
